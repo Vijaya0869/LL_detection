@@ -17,6 +17,7 @@ Lane lines are used to describe the path for self-driving vehicles so, it's nece
 # RGB to GreyScale Conversion :
 
 ![image](https://github.com/Vijaya0869/LL_detection/assets/109131720/05241413-2688-473b-80bf-1794afef97ae)
+
 where  gray(x,y) is the output greyscale image
               x,y are the image coordinates
               f(x,y,R) represents red channel pixel values in specific (x,y) coordinates
@@ -27,7 +28,9 @@ where  gray(x,y) is the output greyscale image
 
 Median filter is most popular filter for noise-removal and less blurring of an image.
 It also remove salt-and pepper noise in an image while preserving useful features and image edges.
+
 ![image](https://github.com/Vijaya0869/LL_detection/assets/109131720/cf63f93a-f50f-43a9-91ca-109f7c910d59)
+
 where f(x , y) is the output image obtained after applying median filter 
       x , y are the image coordinates 
       Sxy - set of coordinates in a sub-image window(kernel) of size centered at point (x, y).
@@ -36,7 +39,9 @@ where f(x , y) is the output image obtained after applying median filter
 # Sobel Filter
 
 Edges are the Sudden &Significant changes in the intensity of an image. Sobel operator  is used to detect both horizontal and vertical edges.
+
 ![image](https://github.com/Vijaya0869/LL_detection/assets/109131720/d1ed14b7-346f-4ba1-966e-9a9659c90c0d)
+
 where, Gx = Sobel filter (horizontal)  
        Gy = Sobel filter (vertical) 
        G = √((𝐺𝑥^2+𝐺𝑦^2)
