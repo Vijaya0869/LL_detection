@@ -61,6 +61,12 @@ where, Gx = Sobel filter (horizontal) 
 ![image](https://github.com/Vijaya0869/LL_detection/assets/109131720/d4f624db-559e-40ce-a5c9-dc0c7a5983a0)
 
 
+# Result Analysis & Comparison :
+
+Evaluated a number of studies which uses minimum distance classifier(MDC), support vector machines(SVM) and Hough transform algorithms.
+The following table shows the comparison of above mentioned algorithms with proposed model based on some performance metrics such as accuracy, precision and recall score.
+
+![image](https://github.com/Vijaya0869/LL_detection/assets/109131720/02f79021-52e9-4762-b8f7-70da4d9f5ca8)
 
 
 
