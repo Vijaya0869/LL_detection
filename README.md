@@ -11,21 +11,6 @@ Lane lines are used to describe the path for self-driving vehicles so, it's nece
 
 ![image](https://github.com/Vijaya0869/LL_detection/assets/109131720/84ffbc7f-02cc-42aa-ac2a-4c2315ae808d)
 
-# Dataset
-The dataset is taken from Kaggle
-760 Images of lane lines with labels
-# Image Pre-Processing
-➢ Here we are using Median Filter for the preprocessing. 
-➢ Median Filter removes impulse noise from the given image while preserving the image edges. 
-➢ Each pixel value is replaced by the median value of the neighboring pixel.
-# Image Segmentation 
-➢ Image Segmentation is the process of partitioning an image into multiple parts or regions, often based on the characteristics of the pixels in the image. Here we are going to  edge-based segmentation.
-# CNN Architecture
-In the deep learning techniques, CNN was designed to process multi-dimensional data like images. Here the input data is initially forwarded to a feature extraction network, and then the resultant extracted features are forwarded to the CNN predictor.
-# Feature Extraction
-Feature Extraction comprises loads of convolutional and pooling layer pairs in CNN. Convolutional layer performs the convolution operation on input data. The pooling layer is used as a dimensionality reduction layer. 
-# CNN Predictor
-All these extracted features are passed through the neural network .The CNN predictor then works on the basis of the image features and produces the output.
 
 # Mathematical Background of the project
 
@@ -58,13 +43,16 @@ where, Gx = Sobel filter (horizontal) 
        
 
 # Convolutional Filter:
+
 𝑆[𝑡]=(𝑥 ∗𝑤)[𝑡]  
 ![image](https://github.com/Vijaya0869/LL_detection/assets/109131720/39345527-04a2-42fd-98df-b5931e074c00)
 
 # Pooling Layer
+
 ![image](https://github.com/Vijaya0869/LL_detection/assets/109131720/c4d4d053-3705-4836-b55a-463529991c1e)
 
 # CNN Predictor
+
 ![image](https://github.com/Vijaya0869/LL_detection/assets/109131720/d4f624db-559e-40ce-a5c9-dc0c7a5983a0)
 
 
