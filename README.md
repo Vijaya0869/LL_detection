@@ -24,7 +24,7 @@ where  gray(x,y) is the output greyscale image
               f(x,y,G) represents green channel pixel values in specific (x,y) coordinates
               f(x,y,B) represents blue channel pixel values in specific (x,y) coordinates
 
-# Medain Filter
+# Median Filter
 
 Median filter is most popular filter for noise-removal and less blurring of an image.
 It also remove salt-and pepper noise in an image while preserving useful features and image edges.
